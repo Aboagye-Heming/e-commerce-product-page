@@ -1,0 +1,127 @@
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+.container {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid hsl(219, 9%, 45%);
+  color: hsl(219, 9%, 45%);
+}
+.connections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 60px;
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+}
+.avatar-img {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+/* hero */
+.hero {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 120px;
+  height: calc(100vh - 200px);
+}
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-sneaker {
+  width: 450px;
+  height: 450px;
+  border-radius: 15px;
+}
+.sneaker-pics {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 10px;
+  border-radius: 10px;
+}
+.sneaker-pics img {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+article {
+  max-width: 500px;
+}
+.company-name {
+  color: hsl(26, 100%, 55%);
+  font-weight: 800;
+  margin-bottom: 30px;
+  letter-spacing: 1.5px;
+}
+.sneaker-type {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+aside {
+  color: hsl(219, 9%, 45%);
+  margin-bottom: 30px;
+}
+.current-price{
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.current-price span{
+    font-weight: 600;
+    font-size: 16px;
+    color: hsl(26, 100%, 55%);
+    margin-left: 15px;
+}
+.old-price{
+    color: hsl(219, 9%, 45%);
+    margin-bottom: 20px;
+}
+.num-of-sneakers{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    column-gap: 50px;
+}
+.cart{
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 12px 70px;
+    max-width: 700px;
+    font-weight: 600;
+    border: none;
+}
+.cart span{
+    margin-left: 20px;
+}

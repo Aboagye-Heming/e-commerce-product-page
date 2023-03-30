@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>E-commerce product page</title>
+  </head>
+  <body>
+    <main class="container">
+      <nav class="nav-bar">
+        <img src="/images/logo.svg" alt="Sneaker logo" />
+        <div class="connections">
+          <p>Collections</p>
+          <p>Men</p>
+          <p>Women</p>
+          <p>About</p>
+          <p>Contact</p>
+        </div>
+        <div class="avatar">
+          <img src="./images/icon-cart.svg" alt="cart icon" />
+          <img
+            src="./images/image-avatar.png"
+            alt="image avatar"
+            class="avatar-img"
+          />
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="images">
+          <figure>
+            <img
+              src="./images/image-product-1.jpg"
+              alt="sneaker"
+              class="main-sneaker"
+            />
+          </figure>
+          <figure class="sneaker-pics">
+            <img src="/images/image-product-1-thumbnail.jpg" alt="" />
+            <img src="/images/image-product-2-thumbnail.jpg" alt="" />
+            <img src="/images/image-product-3-thumbnail.jpg" alt="" />
+            <img src="/images/image-product-4-thumbnail.jpg" alt="" />
+          </figure>
+        </div>
+        <article>
+          <p class="company-name">Sneaker Company</p>
+          <h1 class="sneaker-type">Fall Limited Edition Sneakers</h1>
+          <aside>
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </aside>
+          <p class="current-price">$125.00 <span>50%</span></p>
+          <p class="old-price">$250.00</p>
+          <div class="num-of-sneakers">
+            <img src="./images/icon-minus.svg" alt="" />
+            <p>0</p>
+            <img src="./images/icon-plus.svg" alt="" />
+            <div>
+              <button class="cart">
+                <img src="./images/icon-cart.svg" alt="" />
+                <span>Add to cart</span>
+              </button>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

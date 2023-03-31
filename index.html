@@ -24,12 +24,12 @@
     <main class="container">
       <nav class="nav-bar">
         <img src="/images/logo.svg" alt="Sneaker logo" />
-        <div class="connections">
-          <p>Collections</p>
-          <p>Men</p>
-          <p>Women</p>
-          <p>About</p>
-          <p>Contact</p>
+        <div class="collections">
+          <p class="collection active">Collections</p>
+          <p class="collection">Men</p>
+          <p class="collection">Women</p>
+          <p class="collection">About</p>
+          <p class="collection">Contact</p>
         </div>
         <div class="avatar">
           <img src="./images/icon-cart.svg" alt="cart icon" />
@@ -51,7 +51,11 @@
             />
           </figure>
           <figure class="sneaker-pics">
-            <img src="/images/image-product-1-thumbnail.jpg" alt="" />
+            <img
+              src="/images/image-product-1-thumbnail.jpg"
+              alt=""
+              class="active"
+            />
             <img src="/images/image-product-2-thumbnail.jpg" alt="" />
             <img src="/images/image-product-3-thumbnail.jpg" alt="" />
             <img src="/images/image-product-4-thumbnail.jpg" alt="" />
@@ -80,6 +84,29 @@
           </div>
         </article>
       </section>
+
+      <!-- empty cart basket -->
+      <div class="empty-cart-basket">
+        <p class="empty-cart-basket-title">Cart</p>
+        <p class="empty-cart-basket-content">Your cart is empty</p>
+      </div>
+
+      <!-- filled cart basket -->
+      <div class="filled-cart-basket">
+        <p class="empty-cart-basket-title">Cart</p>
+
+        <div class="filled-cart-basket-content">
+          <img src="./images/image-product-1-thumbnail.jpg" alt="" />
+
+          <div>
+            <figcaption>Fall Limited Edition Sneakers</figcaption>
+            <p>$125.00 x 3 <span>$375.00</span></p>
+          </div>
+          <img src="./images/icon-delete.svg" alt="" class="delete-icon"/>
+        </div>
+        <button>Checkout</button>
+      </div>
     </main>
+    <script src="./main.js"></script>
   </body>
 </html>

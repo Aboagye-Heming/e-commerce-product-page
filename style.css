@@ -17,7 +17,6 @@ body {
   align-items: center;
   justify-content: space-between;
   padding-bottom: 20px;
-
   color: hsl(219, 9%, 45%);
 }
 
@@ -27,34 +26,31 @@ body {
   align-items: center;
   column-gap: 60px;
   font-weight: 700;
-  border-bottom: 4px solid hsl(223, 64%, 98%);
 }
 .collections .collection {
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-top: 10px;
 }
-.collections .collection.active {
+.collections .collection:hover {
   color: black;
   border-bottom: 2px solid hsl(26, 100%, 55%);
-}
-.collections p {
   cursor: pointer;
 }
+
 .avatar {
   display: flex;
-  justify-content: center;
   align-items: center;
   column-gap: 40px;
+}
+
+.icon-cart:hover {
+  cursor: pointer;
 }
 .avatar-img {
   max-width: 80px;
   max-height: 80px;
   cursor: pointer;
 }
-.avatar-img.active {
-  border: 2px solid hsl(26, 100%, 55%);
-  border-radius: 100%;
-}
+
 
 /* hero */
 .hero {
